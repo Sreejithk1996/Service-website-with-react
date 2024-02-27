@@ -1,5 +1,5 @@
 import React from 'react'
-import Div4 from '../../Components/div4/Div4';
+import Div4 from '../../Components/services-section/Services';
 
 function Services() {
   return (

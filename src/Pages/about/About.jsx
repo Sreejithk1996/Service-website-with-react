@@ -1,5 +1,5 @@
 import React from 'react'
-import Div3 from '../../Components/div3/Div3';
+import Div3 from '../../Components/about-section/AboutSection';
 import './About.css';
 
 function About() {
