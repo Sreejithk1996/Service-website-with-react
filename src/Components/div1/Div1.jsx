@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function Div1() {
   return (
@@ -8,10 +9,10 @@ function Div1() {
     </div>
     <div className="navitems">
         <ul className="menu">
-            <li className="menuitems homeactive"><a class="active" href="./home.html">Home</a></li>
-            <li className="menuitems"><a href="./about.html">About</a></li>
-            <li className="menuitems"><a href="./services.html"> Services</a></li>
-            <li className="menuitems"><a href="./contact.html">Contact Us</a></li>
+            <li className="menuitems"><Link  to="/">Home</Link></li>
+            <li className="menuitems"><Link to="/about">About</Link></li>
+            <li className="menuitems"><Link to="/services"> Services</Link></li>
+            <li className="menuitems"><Link to="/contactUs">Contact Us</Link></li>
         </ul>
     </div>
 </header>

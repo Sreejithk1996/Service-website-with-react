@@ -4,11 +4,9 @@ import Div1 from './Components/div1/Div1';
 import Home from './Pages/home/Home';
 import About from './Pages/about/About';
 import Services from './Pages/services/Services';
+import ContactUs from './Pages/contactUs/ContactUs';
 import Footer from './Components/footer/Footer';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import ContactUs from './Pages/contactUs/ContactUs';
-
-
 
 function App() {
   return (

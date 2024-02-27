@@ -1,16 +1,11 @@
 import React from 'react'
-import Header from './Components/header/Header';
-import Div1 from './Components/div1/Div1';
-import Div3 from './Components/div2/Div3';
-import Footer from './Components/footer/Footer';
+import Div3 from '../../Components/div3/Div3';
+import './About.css';
 
 function About() {
   return (
    <>
-   <Header />
-   <Div1 />
    <Div3 />
-   <Footer />
    </>
   )
 }

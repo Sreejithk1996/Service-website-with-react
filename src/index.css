@@ -63,7 +63,7 @@ body {
   color: #0355cc;
 }
 
-.navigation .menu a.active {
+.navigation .menu a:focus{
   color: #0355cc;
 }
 
@@ -146,7 +146,7 @@ body {
   position: relative;
 }
 
-.div2 .div2wrap {
+.div2wrap {
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
@@ -157,7 +157,7 @@ body {
   left: 130px; 
 }
 
-.div2 .subdiv3 {
+.subdiv3 {
   display: flex;
   justify-content: space-evenly;
   gap: 20px;

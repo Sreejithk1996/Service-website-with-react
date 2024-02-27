@@ -1,0 +1,17 @@
+.div2 {
+    height: 485px;
+    padding: 80px 0px;
+}
+
+.subdiv3 {
+    display: none;
+}
+
+.div2wrap {
+    position: relative;
+    gap: 0;
+    top: 0;
+    left: 0;
+}
+
+
