@@ -1,0 +1,969 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+/* ---------------------------------------------------------- Header Section ------------------------------------------------------------------ */
+
+.contactinfo {
+  background-color: black;
+  height: 60px;
+  display: grid;
+  justify-content: space-between;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto;
+  grid-template-areas: "mobile email";
+  color: white;
+  font-size: 18px;
+  padding: 0px 30px;
+}
+
+.contactinfo .call, .contactinfo .email {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.navigation {
+  background-color: #d1e3ff;
+  height: 70px ;
+  color: #0355cc;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto;
+  grid-template-areas: "logo menuitems";
+  align-items: center;
+  padding: 0px 30px;
+}
+
+.navigation .head {
+  font-size: 20px;
+}
+
+.navigation .menu {
+  display: flex;
+  justify-content: flex-end;
+  gap: 60px;
+  list-style: none;
+  font-size: 18px;
+  padding-right: 30px;
+  cursor: pointer;
+}
+
+.navigation .menu a {
+  text-decoration: none;
+  color: black;
+}
+
+.navigation .menu a:hover{
+  color: #0355cc;
+}
+
+.navigation .menu a.active {
+  color: #0355cc;
+}
+
+/* ---------------------------------------------------------- End of Header Section -------------------------------------------------------- */
+
+
+/* ---------------------------------------------------------- div1 Section ----------------------------------------------------------------- */
+
+.div1 {
+  background-color: #d1e3ff;
+  height: 850px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.div1 .imagediv {
+  display: flex;
+  justify-content: center;
+}
+
+.div1 .subdiv1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 620px;
+  gap: 50px;
+}
+
+.div1 .subdiv1 a {
+  background-color: #ff8a1d;
+  width: 30%;
+  color: white;
+  text-decoration: none;
+  padding: 15px;
+  border-radius: 5px;
+  text-align: center;
+  font-weight: bold;
+  border: 1px solid #ff8a1d;
+}
+
+.div1 .subdiv1 a:hover {
+  background-color: rgba(255, 255, 255, 0);
+  color: #ff8a1d;
+}
+
+.div1 .subdiv2 img {
+  width: 600px;
+}
+
+.div1 .subdiv2 {
+  width: 600px;
+}
+
+.div1 .subdiv1a {
+  font-size: 46px;
+  font-weight: bolder;
+  color: #0355cc;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.div1 .subdiv1a h1 {
+  font-weight: bold;
+}
+
+.div1 .subdiv1b {
+  font-size: 17px;
+  line-height: 25px;
+}
+
+/* ---------------------------------------------------------- End of div1 Section -------------------------------------------------------- */
+
+
+/* ---------------------------------------------------------- div2 Section ----------------------------------------------------------------- */
+
+.div2 {
+  height: 800px;
+  position: relative;
+}
+
+.div2 .div2wrap {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center;
+  gap: 100px;
+  position: absolute;
+  top: -125px;
+  left: 130px; 
+}
+
+.div2 .subdiv3 {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.div2 .repair, .div2 .maintain {
+  display: flex;
+  flex-direction: column;
+  width: 390px;
+  height: 250px;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: white;
+}
+
+.div2 .improve {
+  background-color: #ff8a1d;
+  display: flex;
+  flex-direction: column;
+  width: 390px;
+  height: 250px;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.div2 .repair:hover, .div2 .improve:hover, .div2 .maintain:hover {
+  background-color: #ff8a1d;
+  color: white;
+}
+
+.div2 .repair:hover img, .div2 .improve:hover img, .div2 .maintain:hover img {
+  filter: brightness(0) invert(1);
+}
+
+.div2 .subdiv3 img {
+  width: 100px;
+  height: 100px;
+}
+
+.div2 .name {
+  font-size: 20px;
+}
+
+.div2 .subdiv4 {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.div2 .subdiv4a {
+  width: 520px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.div2 .heading h1 {
+  font-size: 35px;
+  font-weight: bolder;
+}
+
+.div2 .content {
+  font-size: 17px;
+  line-height: 25px;
+}
+
+.div2 .subdiv4a a {
+  background-color: #0355cc;
+  width: 30%;
+  color: white;
+  text-decoration: none;
+  padding: 15px;
+  border-radius: 2px;
+  text-align: center;
+  font-weight: bold;
+  border: 1px solid #0355cc;
+}
+
+.div2 .subdiv4a a:hover {
+  background-color: white;
+  color: #0355cc;
+}
+
+/* ---------------------------------------------------------- End of div2 Section -------------------------------------------------------- */
+
+
+/* ---------------------------------------------------------- div3 Section ----------------------------------------------------------------- */ 
+.div3 {
+  height: 900px;
+  background-color: #d1e3ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.div3 .subdiv5 {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.div3 .subdiv5b {
+  width: 620px;
+  gap: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.div3 .details {
+  font-size: 22px;
+  color: #0355cc;
+}
+
+.div3 .description {
+  font-size: 17px;
+  line-height: 25px;
+}
+
+.div3 .subdiv5b a {
+  background-color: #ff8a1d;
+  width: 30%;
+  color: white;
+  text-decoration: none;
+  padding: 15px;
+  border-radius: 2px;
+  text-align: center;
+  font-weight: bold;
+  border: 1px solid #ff8a1d;
+}
+
+.div3 .subdiv5b a:hover {
+  background-color: rgba(255, 255, 255, 0);
+  color: #ff8a1d;
+} 
+
+.div4 {
+  display: flex;
+  flex-direction: column;
+  gap: 120px;
+  margin-bottom: 80px;
+}
+
+.div4 .subdiv6 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 60px;
+  margin-top: 50px;
+}
+
+.div4 .subdiv6 .service1 {
+  display: flex;
+  gap: 30px;
+}
+
+.div4 .service1a img, .div4 .service1b img, .div4 .service1c img {
+  width: 90px;
+  height: 90px;
+}
+
+.div4 .service1a, .div4 .service1b, .div4 .service1c {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: white;
+  width: 360px;
+  height: 230px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.div4 .service1a:hover, .div4 .service1b:hover, .div4 .service1c:hover {
+ background-color: #ff8a1d;
+ color: white;
+}
+
+.div4 .service1a:hover img, .div4 .service1b:hover img, .div4 .service1c:hover img  {
+  filter: brightness(0) invert(1);
+}
+
+.div4 .subdiv6 a {
+  background-color: #0355cc;
+  color: white;
+  text-decoration: none;
+  padding: 15px 45px;
+  border-radius: 2px;
+  text-align: center;
+  font-weight: bold;
+  border: 1px solid #0355cc;
+}
+
+.div4 .subdiv6 a:hover {
+  background-color: white;
+  color: #0355cc;
+}
+
+.div4 .subdiv6 p {
+  font-size: 18px;
+  text-align: center;
+}
+
+.div4 .subdiv7 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+}
+
+.div4 .subdiv7 .clientimg {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+}
+
+.div4 .subdiv7 .clientimg img {
+  border-radius: 50%;
+}
+
+.div4 .subdiv7 .clients1 {
+  display: flex;
+  gap: 40px;
+  flex-direction: row;
+}
+
+.div4 .subdiv7 .clients1a, .div4 .subdiv7 .clients1b {
+  width: 550px;
+  height: 225px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: white;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.div4 .subdiv7 .clientsreview p, .div4 .subdiv7 .clientstar p {
+  font-size: 18px;
+}   
+
+.div4 .subdiv7 .clients2 {
+  display: flex;
+  gap: 40px;
+}
+
+.div4 .subdiv7 .clients2 .arrow{
+  width: 60px;
+  height: 50px;
+  background-color: #0355cc;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+
+.div4 .subdiv8 {
+  display: flex;
+  justify-content: center;
+}
+
+.div4 .subdiv8 .form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 600px;
+}
+
+.div4 .subdiv8 .form {
+  display: grid;
+  grid-template-rows: 60px 60px 60px 150px;
+  row-gap: 20px;
+}
+
+.div4 .subdiv8 input {
+  font-size: 17px;
+  padding: 30px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.097), 0 3px 10px 0 rgba(0, 0, 0, 0.086);
+  border: none;
+}
+
+.div4 .subdiv8 .buttonwrap button {
+  font-size: 18px;
+  border: none;
+  background-color: #0355cc;
+  color: white;
+  padding: 15px;
+  width: 30%;
+  cursor: pointer;
+  border: 1px solid #0355cc;
+}
+
+.div4 .subdiv8 .buttonwrap button:hover{
+  background-color: rgb(255, 255, 255);
+  color:#0355cc;
+  border: 1px solid #0355cc;
+}
+
+.div4 .subdiv8 .contact {
+  display: flex;
+  gap: 40px;
+}
+
+.div4 .subdiv8 .contactform {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.div4 .subdiv8 .map {
+  display: flex;
+  align-items: center;
+}
+
+.div5 {
+  background-color: #0a0f43;
+  height: 535px;
+  display: flex;
+  justify-content: center;
+  
+}
+
+.div5 .footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+  color: white;
+  height: 450px;
+  width: 75%;
+  margin: 80px 0px 0px 0px;  
+  border-bottom: 1px solid white; 
+}
+
+.div5 .footerwrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.div5 .footer1, .div5 .footer2, .div5 .footer3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  width: 30%;
+}
+
+.div5 .footerwrap .icon1, .div5 .footerwrap .icon2, .div5 .footerwrap .icon3 {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  background-color: #0355cc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.div5 .footerwrap .icon1:hover, .div5 .footerwrap .icon2:hover, .div5 .footerwrap .icon3:hover {
+  background-color: #ff8a1d;
+}
+
+.div5 .social {
+  display: flex;
+  gap: 15px;
+  font-size: 22px;
+}
+
+.fa-facebook, .fa-instagram, .fa-snapchat, .fa-pinterest, .fa-twitter, .fa-linkedin {
+  cursor: pointer;
+}
+
+.fa-facebook:hover, .fa-instagram:hover, .fa-snapchat:hover, .fa-pinterest:hover, .fa-twitter:hover, .fa-linkedin:hover {
+  color: #ff8a1d;
+}
+
+.footerend {
+  color: white;
+  background-color: #0a0f43;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  gap: 5px;
+  font-size: 18px;
+}
+
+.footerend a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.footerend a:hover {
+  color: #ff8a1d;
+}
+
+/* ----------------------------------------------------------------- About section css --------------------------------------------------------- */
+
+/* .about .aboutactive a:active {
+  color: #0355cc;
+} */
+.aboutwrap .div2wrap {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.aboutwrap {
+  height: 550px;
+  margin-top: 60px;
+}
+
+/* ----------------------------------------------------------------- contact section css ----------------------------------------------------- */
+
+.contact .contactactive a:hover {
+  color: #0355cc;
+}
+/* .contact .contactactive a:active {
+  color: #0355cc;
+} */
+.contactwrap .subdiv8 {
+  margin-top: 70px;
+}
+
+
+
+/* ------------------------------------------------------------------Media Query (max-width:640px)--------------------------------------------------------------------- */
+
+
+@media only screen and (max-width:640px) {
+
+  .contactinfo {
+      height: 80px;
+      padding: 0px 20px;
+      display: flex;
+      justify-content: space-between;
+  }
+  .navigation {
+      display: flex;
+      flex-direction: column;
+      height: 65px;
+      gap: 15px;
+      padding: 20px 0px;
+  }
+  .navigation .head {
+      font-size: 20px;
+  }
+  .navigation .menu{
+      font-size: 20px;
+      display: flex;
+      gap: 25px;
+      padding-right: 0px;
+  }
+  .div1 {
+      padding: 40px 20px 0px 20px;
+      height: 1045px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  }
+  .div1 .imagediv {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      gap: 30px;
+  }
+  .div1 .subdiv1 {
+      width: 380px;
+      gap: 30px;
+  }
+  .div1 .subdiv1 a {
+      width: 40%;
+  }
+  .div1 .subdiv2 {
+      width: 400px;
+  }
+  .div1 .subdiv2 img {
+      width: 434px;
+  }
+  .div2 {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      margin-top: 60px;
+      height: auto;
+      margin: 0px 20px;
+      gap: 50px;
+  }
+  .div2 .div2wrap {
+      position: relative;
+      top: 30px;
+      left: 0;
+      gap: 50px;
+      margin-bottom: 50px;
+  }
+  .div2 .subdiv3 img {
+      width: 90px;
+      height: 90px;
+  }
+  .div2 .repair, .div2 .improve, .div2 .maintain {
+      height: 200px;
+  }
+  .div2 .subdiv4 {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+  }
+  .div2 .subdiv4a {
+      width: auto;
+      gap: 20px;
+  }
+  .div2 .subdiv4a a {
+      width: 40%;
+  }
+  .div2 .content {
+      font-size: 21px;
+      line-height: 30px;
+  }
+  .div2 .subdiv4b img {
+      max-width: 100%;
+  }
+  .div3 {
+      width: 100%;
+      height: 600px;
+  }
+  .div3 .subdiv5 {
+      display: flex;
+      flex-direction: column;
+  }
+  .div3 .subdiv5a {
+      display: none;
+      width: 100%;
+  }
+  .div3 .subdiv5b {
+      width: 400px;
+  }
+  .div4 {
+      gap: 50px;
+  }
+  .div4 .service1a img, .div4 .service1b img, .div4 .service1c img {
+      width: 70px;
+      height: 70px;
+  }
+  .div4 .subdiv6 .service1 {
+      display: flex;
+      flex-direction: column;
+  }
+  .div4 .service1a, .div4 .service1b, .div4 .service1c {
+      width: 360px;
+      height: 190px;
+  }
+  .div4 .subdiv6 p {
+      font-size: 16px;
+      text-align: center;
+  }
+  .div4 .subdiv7 .clients1 {
+      display: flex;
+      flex-direction: column;
+  }
+  .div4 .subdiv7 .clients1a, .div4 .subdiv7 .clients1b {
+      width: 330px;
+      height: 280px;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      background-color: white;
+      padding: 30px;
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+  }
+  .div4 .subdiv7 .clients2 .arrow{
+     display: none;
+  }
+  .div4 .subdiv8 .contact {
+      display: flex;
+      flex-direction: column;
+  }
+  .div4 .subdiv8 .form {
+      width: 400px;
+  }
+  .div4 .subdiv8 .contact {
+      display: flex;
+      width: 400px;
+  }
+  .div4 .subdiv8 .contactform {
+      display: flex;
+      align-items: center;
+  }
+  .div4 .subdiv8 .buttonwrap button {
+      font-size: 17px;
+      padding: 15px 35px;
+      width: auto;    
+  }
+  .div5 {
+      height: 950px;
+      border-bottom: 1px solid white;
+  }
+  .div5 .footer{
+      border: none;
+  }
+  .div5 .footerwrap {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 80px;
+      width: 100%;
+  }
+  .div5 .footer1, .div5 .footer2, .div5 .footer3 {
+      width: 100%;
+  }
+}
+
+
+/* -------------------------------------------------------------------Media Query (max-width:992px)------------------------------------------------------------------ */
+
+
+@media only screen and (min-width:641px) and (max-width:992px) {
+  .navigation .menu {
+      font-size: 20px;
+  }
+  .div1 {
+      height: 570px;
+      display: flex;
+      justify-content: center;
+      align-items: flex-end;
+  }
+  .div1 .subdiv1 {
+      width: 340px;
+      gap: 30px;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+  }
+  .div1 .subdiv2 {
+      width: 330px;
+  }
+  .div1 .subdiv2 img {
+      width: 380px;
+  }
+  .div2 {
+      height: 850px;
+  }
+  .div2 .div2wrap {
+      position: relative;
+      top: 90px;
+      left: 0;
+      gap: 80px;
+  }
+  .div2 .repair, .div2 .improve, .div2 .maintain {
+      width: 220px;
+      height: 220px;
+  }
+  .div2 .subdiv4 {
+      display: flex;
+      flex-direction: row;
+  }
+  .div2 .subdiv4a {
+      width: 351px;
+  }
+  .div2 .subdiv4b img {
+      width: 330px;
+
+  }
+  .div3 {
+      height: 580px;
+  }
+  .div3 .subdiv5a {
+      width: 325px;
+  }
+  .div3 .subdiv5a img {
+      width: 325px;
+  }
+  .div3 .subdiv5b {
+      width: 400px;
+  }
+  .div4 .service1a, .div4 .service1b, .div4 .service1c {
+      width: 170px;
+      height: 310px;
+  }
+  .div4 .subdiv7 .clients1 {
+      display: flex;
+      flex-direction: row;
+  }
+  .div4 .subdiv7 .clients1a, .div4 .subdiv7 .clients1b {
+      width: 270px;
+      height: 320px;
+      
+  }
+  .div4 .subdiv8 .form {
+      width: 350px;
+  }
+  .div4 .subdiv8 .map {
+    width: 300px;
+  }
+  .div4 .subdiv8 .buttonwrap button {
+      font-size: 17px;
+      padding: 10px 35px;
+      width: 150px;
+  }
+}
+
+
+/* ----------------------------------------------------------------------Media Query (max-width:1280px)---------------------------------------------------------------- */
+
+
+@media only screen and (min-width:993px) and (max-width:1280px) {
+  .navigation .menu {
+      font-size: 20px;
+  }
+  .div1 {
+      height: 570px;
+      display: flex;
+      justify-content: center;
+      align-items: flex-end;
+  }
+  .div1 .subdiv1 {
+      width: 450px;
+      gap: 30px;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+  }
+  .div1 .subdiv2 {
+      width: 330px;
+  }
+  .div1 .subdiv2 img {
+      width: 380px;
+  }
+  .div2 {
+      height: 550px;
+  }
+  .div2 .div2wrap {
+      /* position: relative; */
+      top: -110px;
+      left: 203px;
+      gap: 80px;
+  }
+  .div2 .repair, .div2 .improve, .div2 .maintain {
+      width: 280px;
+      height: 200px;
+  }
+  .div2 .subdiv4 {
+      display: flex;
+      flex-direction: row;
+  }
+  .div2 .subdiv4a {
+      width: 415px;
+  }
+  .div2 .subdiv4b img {
+      width: 425px;
+
+  }
+  .div3 {
+      height: 580px;
+  }
+  .div3 .subdiv5a {
+      width: 400px;
+  }
+  .div3 .subdiv5a img {
+      width: 360px;
+  }
+  .div3 .subdiv5b {
+      width: 460px;
+  }
+  .div4 .service1a, .div4 .service1b, .div4 .service1c {
+      width: 250px;
+      height: 280px;
+  }
+  .div4 .subdiv7 .clients1 {
+      display: flex;
+      flex-direction: row;
+  }
+  .div4 .subdiv7 .clients1a, .div4 .subdiv7 .clients1b {
+      width: 390px;
+      height: 265px;
+      
+  }
+  .div4 .subdiv8 .form {
+      width: 470px;
+  }
+  .div4 .subdiv8 .map {
+    width: 440px;
+  }
+  .div4 .subdiv8 .buttonwrap button {
+      font-size: 17px;
+      padding: 10px 35px;
+      width: 150px;
+  }
+}
+
+
+/* ------------------------------------------------- About section Media query ( max-width:992px) ------------------------------------ */
+
+@media only screen and (min-width:641px) and (max-width:992px) {
+  .aboutwrap {
+      height: 600px;
+  }
+}
