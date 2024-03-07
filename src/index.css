@@ -63,7 +63,7 @@ body {
   color: #0355cc;
 }
 
-.navigation .menu a:focus{
+.navigation .menu .active {
   color: #0355cc;
 }
 
